@@ -1,0 +1,13 @@
+# Ignore raw datasets and large TSVs
+*.tsv
+dataset/
+
+# Ignore outputs and submission zips
+output/
+*.zip
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
